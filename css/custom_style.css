@@ -90,10 +90,20 @@ body {
 .side-bar-txt-4 {
 	margin-top: -30px;
 }
-
+ 
+/*carousel */
 .slider-holder {
-	border: 2px solid #58401b;
 	background: whitesmoke;
+}
+
+/*o nama*/
+.o-nama-title {
+	font-family: 'Indie Flower', cursive;
+}
+
+.o-nama-txt {
+	font-family: 'Kalam', cursive;
+	font-size: 17px;
 }
 
 /*MEDIA QUERY*/
