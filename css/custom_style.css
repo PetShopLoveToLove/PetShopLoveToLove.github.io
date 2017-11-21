@@ -2,51 +2,207 @@
 /*02 HEADER*/
 /*03 MAIN CONTENT*/
 /*04 FOOTER*/
+/*MEDIA QUERY*/
 
 /*01 GENERALS*/
 body {
-
-}
-
-.main-nav {
-	background-color: #efe248;
-}
-
-/*03 NASLOVNA MAIN CONTENT*/
-.img-drugari {
-	width: 90px;
-	height: 90px;
-	border-radius: 100%;
-	margin-left: 25px;
-	margin-top: 23px;
-	border: 2px solid red; 
-}
-
-.zivuljke {
-	font-size: 20px;
-	color: white;
-	text-shadow: 0 0 2px black;
-}
-
-.kuce-mace-ptice-txt {
-	margin-left: 25px;
-	margin-top: -20px;
-}
-
-.ostali {
-	margin-left: 25px;
-	margin-top: -30px;
-}
-
-.svi-drugari-holder {
 	background: #e6e387;
-	height: 100vh;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*02 HEADER*/
+.pet-main-nav {
+	background-color: #efe248;
+	box-shadow: 0 1px 2px #58401b;  
+}
+
+.pet-main-logo {
+	width: 80px;
+	height: 80px;
+}
+
+.pet-logo-img {
+	width: 95px;
+	height: 95px;
+}
+
+.pet-nav-ul {
+	font-family: 'Indie Flower', cursive;
+	font-size: 23px;
+}
+
+.pet-nav-link {
+	width: 100px;
+	color: black !important;
+	font-weight: bold;
+}
+
+.pet-nav-link:hover {
+	text-decoration: underline;
+}
+
+.active {
+	background: #efca16;
+	border-radius: 10px;
+}
+
+/*03 NASLOVNA MAIN CONTENT*/ 
+
+/*side bar*/
+.pet-side-bar-holder {
+	background: #58401b;
+	height: 550px;
 	width: 70%;
 }
 
-.slider-holder {
-	width: 100%;
-	height: 400px;
-	background: blue;
-
+.pet-side-bar-img {
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	border: 4px solid white;
+	box-shadow: 0 0 3px #58401b;
 }
+
+.pet-side-bar-txt-all {
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	text-shadow: 0 0 5px black;
+	font-weight: bold;
+}
+
+.pet-side-bar-txt-all:hover {
+	text-decoration: none;
+}
+
+.pet-side-bar-txt-123 {
+	margin-top: -20px;
+}
+
+.pet-side-bar-txt-4 {
+	margin-top: -30px;
+}
+ 
+/*carousel */
+.pet-slider-holder {
+	background: whitesmoke;
+}
+
+/*o nama*/
+.pet-o-nama-title {
+	font-family: 'Indie Flower', cursive;
+}
+
+.pet-o-nama-txt {
+	font-family: 'Kalam', cursive;
+	font-size: 17px;
+	background: #efe248;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (min-width: 991px) {
+    /*lg - nav bar*/
+    .pet-nav {
+		height: 103px;
+	}
+
+	.nav-item {
+		height: 100%;
+	}
+
+    /*lg side bar visible*/
+    .pet-large-screen-side-bar-solution {
+    	display: block;
+    }
+
+    .pet-side-bar-content-holder {
+	margin-left: 16px;
+	}
+    
+	.pet-side-bar-img {
+		margin-left: 24px;
+	}
+
+    .pet-side-bar-img:hover {
+		margin-left: 45px;
+		transition: 1s ease;
+	}
+
+    /*under-nav bar disappear*/
+	.pet-mobile-side-bar-solution {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+    /*lg side bar disappear*/
+    .pet-large-screen-side-bar-solution {
+    	display: none;
+    }
+
+    /*under-nav bar visible*/
+	.pet-mobile-side-bar-solution {
+		display: block;
+	}
+
+	.pet-side-bar-content-holder {
+		background: #58401b;
+	}
+
+	.pet-side-bar-img {
+		margin-bottom: -15px; 
+	}
+
+	.pet-side-bar-img:hover {
+		transform: scale(1.2); 
+		transition: 1s;
+	}
+
+	.pet-side-bar-txt-123 {
+		margin-top: -10px;
+	}
+
+	.pet-side-bar-txt-4 {
+		margin-top: -10px;
+	}
+}
+
+@media only screen and (max-width: 735px) {
+    /*side bar imgs and txt respo*/
+    .pet-side-bar-img {
+		width: 60px;
+		height: 60px;
+		margin-bottom: -15px; 
+	}
+
+	.pet-side-bar-txt-all {
+		font-size: 17px;
+		}
+
+	.pet-side-bar-txt-123 {
+		margin-top: -10px;
+	}
+
+	.pet-side-bar-txt-4 {
+		margin-top: -10px;
+		font-size: 14px;
+		
+	}
+}
+
+@media only screen and (max-width: 471px) {
+    /*bunny img respo*/
+	.pet-side-bar-txt-4 {
+		margin-top: -21px;
+	}
+}
+
+.carousel-inner .carousel-item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+
