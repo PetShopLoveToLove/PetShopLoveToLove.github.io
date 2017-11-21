@@ -23,20 +23,20 @@
 
 <body class="kontakt">
 
-  <!-- *** HEADER area *** -->
-
+            <!-- *** HEADER area *** -->
+      
   <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0">
     <button class="navbar-toggler navbar-toggler-right mt-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    <!-- logo -->
+        <!-- logo -->
     <div class="logo-holder mx-auto">
       <a class="navbar-brand" href="index.html">
         <img class="pet-main-logo ml-4" src="img/logo.jpg" alt="pet-shop logo">
         <img class="pet-logo-img ml-3" src="img/LtL1.jpg" alt="kuca i maca">
       </a>
     </div>
-    <!-- nav-bar -->
+        <!-- nav-bar -->
     <div class="collapse navbar-collapse pet-nav" id="navbarNav">
       <ul class="navbar-nav mx-auto pet-nav-ul">
         <li class="nav-item active mx-auto mx-lg-4 d-flex align-items-center text-center text-capitalize">
@@ -55,130 +55,42 @@
           <a class="kontakt-nav nav-link pet-nav-link p-1" href="kontakt.html">Kontakt</a>
         </li>
       </ul>
-    </div>
-    <!-- collapse navbar-collapse ends -->
+    </div> <!-- collapse navbar-collapse ends -->
   </nav>
+        
+          <!-- *** HEADER area ends *** -->
 
-  <!-- *** HEADER area ends *** -->
+  
+          <!-- *** KONTAKT MAIN CONTENT area *** -->
 
-
-
-  <!-- *** MAIN CONTENT area *** -->
-
-  <div class="container-fluid pet-mobile-side-bar-solution">
-    <div class="row">
-      <!-- first row -->
-
-      <!-- small screen under-nav bar -->
-      <div class="pet-side-bar-content-holder col-3 text-center pt-4">
-        <a href="#">
-          <h4 class="pet-side-bar-txt-123 pet-side-bar-txt-all">KUCE</h4>
-          <img class="pet-side-bar-img img-fuid" src="img/kuce1.jpg" alt="pas">
-        </a>
-      </div>
-      <div class="pet-side-bar-content-holder col-3 text-center pt-4">
-        <a href="#">
-          <h4 class="pet-side-bar-txt-123 pet-side-bar-txt-all">MACE</h4>
-          <img class="pet-side-bar-img img-fluid" src="img/mace1.jpg" alt="macke">
-        </a>
-      </div>
-      <div class="pet-side-bar-content-holder col-3 text-center pt-4">
-        <a href="#">
-          <h4 class="pet-side-bar-txt-123 pet-ptice pet-side-bar-txt-all">PTIČICE</h4>
-          <img class="pet-side-bar-img img-fluid" src="img/ptice1.jpg" alt="ptice">
-        </a>
-      </div>
-      <div class="pet-side-bar-content-holder col-3 text-center pt-4">
-        <a href="#">
-          <h4 class="pet-side-bar-txt-4 pet-side-bar-txt-all">MALI DRUGARI</h4>
-          <img class="pet-side-bar-img img-fluid" src="img/mali-drugari1.jpg" alt="male zivotinje">
-        </a>
-      </div>
-    </div>
-    <!-- first row ends -->
-    <!-- small screen under-nav bar ends -->
-
-    <!-- small screen carousel -->
-
-    <!-- small screen carousel ends-->
-
-  </div>
-  <!-- second row ends -->
-  </div>
-  <!-- container-fluid ends -->
-
-
-  <!-- large screen side bar -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-2 p-0">
-        <div class="pet-side-bar-holder pet-large-screen-side-bar-solution">
-          <div class="pet-side-bar-content-holder">
-            <a href="#">
-              <img class="pet-side-bar-img img-fuid mt-4" src="img/kuce1.jpg" alt="psi">
-              <h4 class="pet-side-bar-txt-123 pet-side-bar-txt-all">KUCE</h4>
-              </a>
-          </div>
-          <div class="pet-side-bar-content-holder">
-            <a href="#">
-              <img class="pet-side-bar-img img-fluid mt-4" src="img/mace1.jpg" alt="macke">
-              <h4 class="pet-side-bar-txt-123 pet-side-bar-txt-all">MACE</h4>
-              </a>
-          </div>
-          <div class="pet-side-bar-content-holder">
-            <a href="#">
-              <img class="pet-side-bar-img img-fluid mt-4" src="img/ptice1.jpg" alt="ptice">
-              <h4 class="pet-side-bar-txt-123 pet-ptice pet-side-bar-txt-all">PTIČICE</h4>
-              </a>
-          </div>
-          <div class="pet-side-bar-content-holder">
-            <a href="#">
-              <img class="pet-side-bar-img img-fluid mt-4" src="img/mali-drugari1.jpg" alt="male zivotinje">
-              <h4 class="pet-side-bar-txt-4 pet-side-bar-txt-all">MALI DRUGARI</h4>
-              </a>
-          </div>
-        </div>
+      <div class="col-sm-12 col-lg-4">
+        
       </div>
-      <!--main content-->
-      <div id="map" class="pet-map m-4"></div>
+      <div class="col-sm-12 col-lg-8">
+        <div id="map" class="pet-map mx-auto my-5"></div>
+      </div>
+    </div> <!-- row ends -->
+  </div> <!-- container-fluid ends -->
+      
+        
+        <!-- *** KONTAKT MAIN CONTENT area ends *** -->    
+      
 
-
-
-
-
-
-
-
-      <script>
-        function initMap() {
-          var uluru = {
-            lat: 44.745,
-            lng: 20.435
-          };
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: uluru
-          });
-          var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
-          });
-        }
-      </script>
-
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA53LbRtdmMtmD1lJMtAHBGuowPqkpfJcg&callback=initMap">
-      </script>
-
-      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-      <!-- wow js -->
-      <script src="wow_js/wow.min.js"></script>
-      <script>
-        new WOW().init();
-      </script>
-      <!-- my js -->
-      <script src="js/custom.js"></script>
+  <!-- mapa -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA53LbRtdmMtmD1lJMtAHBGuowPqkpfJcg&callback=initMap">
+  </script>
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!-- wow js -->
+  <script src="wow_js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <!-- my js -->
+  <script src="js/custom.js"></script>
 </body>
-
 </html>

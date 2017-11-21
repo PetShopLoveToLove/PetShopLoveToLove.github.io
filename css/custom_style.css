@@ -1,7 +1,8 @@
 /*01 GENERALS*/
 /*02 HEADER*/
-/*03 MAIN CONTENT*/
-/*04 FOOTER*/
+/*03 NASLOVNA MAIN CONTENT*/
+/*FOOTER*/
+/*KONTAKT MAIN CONTENT*/
 /*MEDIA QUERY*/
 
 /*01 GENERALS*/
@@ -99,6 +100,12 @@ drugi nacin isticanja trenutnog linka*/
 	background: whitesmoke;
 }
 
+.carousel-inner .carousel-item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+
 /*o nama*/
 .pet-o-nama-title {
 	font-family: 'Indie Flower', cursive;
@@ -108,6 +115,13 @@ drugi nacin isticanja trenutnog linka*/
 	font-family: 'Kalam', cursive;
 	font-size: 17px;
 	background: #efe248;
+}
+
+/*KONTAKT MAIN CONTENT*/
+.pet-map {
+	width:85%;
+	height:300px;
+	background-color: grey;
 }
 
 /*MEDIA QUERY*/
@@ -199,12 +213,6 @@ drugi nacin isticanja trenutnog linka*/
 		font-size: 14px;
 
 	}
-	.pet-map {
-		width:100%;
-		height:300px;
-		background-color: grey;
-	}
-
 }
 
 @media only screen and (max-width: 471px) {
@@ -214,8 +222,4 @@ drugi nacin isticanja trenutnog linka*/
 	}
 }
 
-.carousel-inner .carousel-item {
-    -webkit-transition: 0s !important;
-    -o-transition: 0s !important;
-    transition: 0s !important;
-}
+	
