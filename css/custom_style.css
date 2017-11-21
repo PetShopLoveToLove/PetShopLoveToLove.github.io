@@ -129,17 +129,9 @@ drugi nacin isticanja trenutnog linka*/
   background-color: #efca16;
 }
 
-.pet-contact-info {
-  height: 290px;
-}
-
 .pet-contact-info ul {
   list-style: none;
   padding-left: 0;
-}
-
-.pet-contact-info-img {
-  padding: 0;
 }
 
 /*MEDIA QUERY*/
