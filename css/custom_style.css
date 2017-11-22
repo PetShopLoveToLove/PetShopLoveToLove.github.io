@@ -133,6 +133,12 @@ drugi nacin isticanja trenutnog linka*/
   list-style: none;
   padding-left: 0;
 }
+/*BLOG MAIN CONTENT*/
+
+.card{
+  background-color: white;
+}
+
 
 /*MEDIA QUERY*/
 
