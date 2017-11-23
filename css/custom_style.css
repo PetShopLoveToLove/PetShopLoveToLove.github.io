@@ -30,6 +30,7 @@ a:hover {
 .pet-main-logo {
   width: 80px;
   height: 80px;
+  z-index: 2;
 }
 
 .pet-logo-img {
@@ -64,24 +65,31 @@ drugi nacin isticanja trenutnog linka*/
 
 /*side bar*/
 
+.pet-main-content-all-wrapper {
+  position: relative;
+}
+
 .pet-side-bar-holder {
+  position: absolute;
+  left: 0; 
   background: #58401b;
-  height: 550px;
-  width: 70%;
+  height: 450px;
+  width: 55%;
+  border-radius: 0 0 10px 0;
 }
 
 .pet-side-bar-img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   border-radius: 100%;
-  border: 4px solid white;
+  border: 2px solid white;
   box-shadow: 0 0 3px #58401b;
 }
 
 .pet-side-bar-txt-all {
   color: white;
   font-family: 'Indie Flower', cursive;
-  font-size: 25px;
+  font-size: 20px;
   text-shadow: 0 0 5px black;
   font-weight: bold;
 }
@@ -119,7 +127,7 @@ drugi nacin isticanja trenutnog linka*/
 .pet-o-nama-txt {
   font-family: 'Kalam', cursive;
   font-size: 17px;
-  background: #efe248;
+  /*background: #efe248;*/
 }
 
 /*KONTAKT MAIN CONTENT*/
@@ -133,6 +141,13 @@ drugi nacin isticanja trenutnog linka*/
   list-style: none;
   padding-left: 0;
 }
+
+/*BLOG MAIN CONTENT*/
+
+.card{
+  background-color: white;
+}
+
 
 /*MEDIA QUERY*/
 
@@ -155,20 +170,125 @@ drugi nacin isticanja trenutnog linka*/
     margin-left: 24px;
   }
   .pet-side-bar-img:hover {
-    margin-left: 45px;
+    margin-left: 40px;
     transition: 1s ease;
   }
   /*under-nav bar disappear*/
   .pet-mobile-side-bar-solution {
     display: none;
   }
+
+  /*skriveni side-bar*/
+  .pet-side-bar-holder-hidden {
+    float: left;
+    top: 50px !important;
+    margin-bottom: -50px;
+    margin-left: -43px;
+    background: #58401b;
+    height: 450px;
+    width: 43px;
+    border-radius: 0 0 10px 0;
+    z-index: 1;
+  }
+
+  .pet-fa-icon-paw {
+    font-size: 35px;
+  }
+
+  .pet-fa-icon-paw1 {
+    color: #adcae9;
+  }
+
+  .pet-fa-icon-paw2 {
+    color: #f38585;
+  }
+
+  .pet-fa-icon-paw3 {
+    color: #9ad86c;
+  }
+
+  .pet-fa-icon-paw4 {
+    color: #fff772;
+  }
+
+  .clearfix:after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+
+  /*animacija 'o nama'*/
+  .pet-div-anim1 {
+    position: relative;
+    height: 302px;
+  }
+
+  .pet-img-anim1 {
+    height: 0;
+    position: absolute;
+    bottom: -302px;
+    right: 0;
+    z-index: 2;
+  }
+
+  .pet-div-anim2 {
+    position: relative;
+    height: 302px;
+  }
+
+  .pet-txt-anim2 {
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    background: #efe248;
+    overflow: hidden;
+  }
+
+  .pet-div-anim3 {
+    position: relative;
+    height: 302px;
+  }
+
+  .pet-txt-anim3 {
+    height: 0;
+    position: absolute;
+    top: -302px;
+    right: 0;
+    z-index: 3;
+    background: #efe248;
+  }
+
+  .pet-div-anim4 {
+    position: relative;
+    height: 302px;
+  }
+
+  .pet-img-anim4 {
+    height: 0;
+    position: absolute;
+    top: -302px;
+    left: 0;
+    z-index: 2;
+  }
+
+  .pet-ex-span-anim1, .pet-ex-span-anim2 {
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   /*lg side bar disappear*/
-  .pet-large-screen-side-bar-solution {
+  .pet-large-screen-side-bar-solution, .pet-fa-icon-paw {
     display: none;
   }
+  
+  /*hidden lg side bar dont appear*/
+  .pet-side-bar-holder-hidden {
+    display: none;
+  }
+ 
   /*under-nav bar visible*/
   .pet-mobile-side-bar-solution {
     display: block;
@@ -191,6 +311,11 @@ drugi nacin isticanja trenutnog linka*/
   }
   .pet-map {
     height: 20rem;
+  }
+  
+  /*text 'o nama pozadina'*/
+  .pet-o-nama-txt {
+    background: #efe248;
   }
 }
 
@@ -219,3 +344,23 @@ drugi nacin isticanja trenutnog linka*/
     margin-top: -21px;
   }
 }
+
+/*TEST AREA*/
+
+
+/*.pet-bcg-img-anim {
+  bottom: 0;
+  left: 0;
+  height: 302px;
+  z-index: 1;
+  position: absolute;
+}*/
+
+
+
+
+
+
+
+
+

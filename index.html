@@ -25,16 +25,16 @@
 
         <!-- *** HEADER area *** -->
 
-  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0">
+  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0 sticky-top">
     <button class="navbar-toggler navbar-toggler-right mt-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
         <!-- logo -->
     <div class="logo-holder mx-auto">
-    <a class="navbar-brand" href="index.html">
-      <img class="pet-main-logo ml-4" src="img/logo.jpg" alt="pet-shop logo">
-      <img class="pet-logo-img ml-3" src="img/LtL1.jpg" alt="kuca i maca">
-    </a>
+      <a class="navbar-brand" href="index.html">
+        <img class="pet-main-logo ml-4" src="img/logo.jpg" alt="pet-shop logo">
+        <img class="pet-logo-img ml-3" src="img/LtL1.jpg" alt="kuca i maca">
+      </a>
     </div>
         <!-- nav-bar -->
     <div class="collapse navbar-collapse pet-nav" id="navbarNav">
@@ -49,7 +49,7 @@
             <a class="galerija-nav nav-link pet-nav-link p-1" href="#">Galerija</a>
           </li>
           <li class="blog-nav nav-item mx-auto mx-lg-4 d-flex align-items-center text-center text-capitalize">
-            <a class="nav-link pet-nav-link p-1" href="#">Blog</a>
+            <a class="nav-link pet-nav-link p-1" href="blog.html">Blog</a>
           </li>
           <li class="kontakt-nav nav-item mx-auto mx-lg-4 d-flex align-items-center text-center text-capitalize">
             <a class="nav-link pet-nav-link p-1" href="kontakt.html">Kontakt</a>
@@ -59,11 +59,30 @@
   </nav>
 
         <!-- *** HEADER area ends *** -->
+  <div class="pet-main-content-all-wrapper">
+    
+    <!-- hidden large screen side bar -->
+    <div class="pet-side-bar-holder-hidden d-flex flex-column justify-content-around sticky-top">
+      <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw1 mx-auto text-center">
+        <i class="fa fa-paw" aria-hidden="true"></i>
+      </div></a>
+      <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw2 mx-auto text-center">
+        <i class="fa fa-paw" aria-hidden="true"></i>
+      </div></a>
+      <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw3 mx-auto text-center">
+        <i class="fa fa-paw" aria-hidden="true"></i>
+      </div></a>
+      <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw4 mx-auto text-center">
+        <i class="fa fa-paw" aria-hidden="true"></i>
+      </div></a>
+      <!-- hidden large screen side bar ends-->
+    </div> <!-- pet-side-bar-holder-hidden ends -->
 
-        
         <!-- *** MAIN CONTENT area *** -->
-          
+
           <!-- small screen under-nav bar -->
+  
+
   <div class="container-fluid pet-mobile-side-bar-solution">
     <div class="row"> <!-- row -->
       <div class="pet-side-bar-content-holder col-3 text-center pt-4">
@@ -93,11 +112,11 @@
     </div> <!-- row ends -->
   </div> <!-- container-fluid ends -->
          <!-- small screen under-nav bar ends -->
-        
+
         <!-- large screen side bar -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-2 p-0">
+      <div class="col-2 p-0 pet-side-bar-col">
         <div class="pet-side-bar-holder pet-large-screen-side-bar-solution">
           <div class="pet-side-bar-content-holder">
             <a href="#">
@@ -124,11 +143,12 @@
             </a>
           </div>
         </div> <!-- pet-side-bar-holder ends-->
+
       </div> <!-- col-2 ends -->
           <!-- large screen side bar ends-->
 
           <!-- carousel -->
-      <div class="col-12 col-lg-8 offset-lg-1">
+      <div class="col-12 col-lg-9 carousel-col">
         <div class="pet-slider-holder mt-5 p-2">
            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -138,21 +158,21 @@
             </ol>
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                  <img src="img/car-img-1.jpg" alt="...">
+                  <img class="img-fluid" src="img/car-img-1.jpg" alt="...">
                   <div class="carousel-caption">
                     <h3>NESTO</h3>
                     <p>nesto nesto nesto</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/car-img-2.jpg" alt="...">
+                  <img class="img-fluid" src="img/car-img-2.jpg" alt="...">
                   <div class="carousel-caption">
                     <h3>NESTO</h3>
                     <p>nesto nesto nesto</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/car-img-3.jpg" alt="...">
+                  <img class="img-fluid" src="img/car-img-3.jpg" alt="...">
                   <div class="carousel-caption">
                     <h3>NESTO</h3>
                     <p>nesto nesto nesto</p>
@@ -174,29 +194,57 @@
     </div> <!-- row ends -->
   </div> <!-- container-fluid ends -->
           <!-- carousel ends-->
-        
+  <div  id="o-nama" style="height: 100px"></div>
   <hr class="my-5" style="width: 90%; height: 1px; background: whitesmoke;">
-  
+
           <!-- o nama section -->
-  <div class="text-center pet-o-nama-title" id="o-nama">
+  <div class="text-center pet-o-nama-title clearfix">
     <h1>O Nama</h1>
   </div>
   <div class="container">
-    <div class="row my-5 d-flex">
+    <div class="row mb-3 mt-2 ml-lg-4 d-flex">
       <div class="col-12 col-lg-6 p-0">
-        <img class="img-fluid d-block mx-auto" src="img/o-nama1.jpg" alt="">
+       <!--  <div>
+          <img class="pet-bcg-img-anim p-0 m-0" src="img/paw-bcg.jpg" alt="">
+        </div> -->
+        <div class="pet-div-anim1">
+          <img class="img-fluid d-block mx-auto pet-img-anim1" src="img/o-nama1.jpg" alt="">
+        </div>
       </div>
-      <div class="col-12 col-lg-6 pt-1 pl-lg-4 my-sm-4 my-lg-0 pet-o-nama-txt"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt soluta hic laborum vel aspernatur quaerat accusantium ducimus aliquid, repudiandae doloremque, pariatur sed, quia deleniti reiciendis natus repellendus aliquam dolores eum? Voluptatem illum laboriosam porro pariatur accusamus eos ut earum, labore quod reprehenderit ea rem atque in molestiae consectetur ad recusandae odio ratione nam expedita autem omnis et sequi! Illo nobis fugiat corporis molestias sed inventore odit ex omnis possimus officia a deserunt porro laboriosam dolore, ut repudiandae tempore cum magni.</div>
+      <div class="col-12 col-lg-6 pt-1 pl-lg-4 my-sm-4 my-lg-0 pet-o-nama-txt pet-div-anim2">
+       <!--  <div>
+          <img class="pet-bcg-img-anim p-0 m-0" src="img/paw-bcg.jpg" alt="">
+        </div>  -->
+        <div class="pet-txt-anim2">
+          <div class="pet-ex-span-anim1 ml-2 mt-2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt soluta hic laborum vel aspernatur quaerat accusantium ducimus aliquid, repudiandae doloremque, pariatur sed, quia deleniti reiciendis natus repellendus aliquam dolores eum? Voluptatem illum laboriosam porro pariatur accusamus eos ut earum, labore quod reprehenderit ea rem atque in molestiae consectetur ad recusandae odio ratione nam expedita autem omnis et sequi! Illo nobis fugiat corporis molestias sed inventore odit ex omnis possimus officia a deserunt porro laboriosam dolore, ut repudiandae tempore cum magni.
+          </div>
+        </div>
+      </div>
       <!-- <div class="w-100"></div> -->
-      <div class="col-12 col-lg-6 pr-lg-4 pt-4 my-sm-4 my-lg-0 flex-last flex-lg-unordered pet-o-nama-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt soluta hic laborum vel aspernatur quaerat accusantium ducimus aliquid, repudiandae doloremque, pariatur sed, quia deleniti reiciendis natus repellendus aliquam dolores eum? Voluptatem illum laboriosam porro pariatur accusamus eos ut earum, labore quod reprehenderit ea rem atque in molestiae consectetur ad recusandae odio ratione nam expedita autem omnis et sequi! Illo nobis fugiat corporis molestias sed inventore odit ex omnis possimus officia a deserunt porro laboriosam dolore, ut repudiandae tempore cum magni.</div>
+      <div class="col-12 col-lg-6 pr-lg-4 pt-4 my-sm-4 my-lg-0 flex-last flex-lg-unordered pet-o-nama-txt pet-div-anim3">
+        <!-- <div>
+          <img class="pet-bcg-img-anim p-0 m-0" src="img/paw-bcg.jpg" alt="">
+        </div> -->
+        <div class="pet-txt-anim3">
+          <div class="pet-ex-span-anim2 ml-2 mt-2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt soluta hic laborum vel aspernatur quaerat accusantium ducimus aliquid, repudiandae doloremque, pariatur sed, quia deleniti reiciendis natus repellendus aliquam dolores eum? Voluptatem illum laboriosam porro pariatur accusamus eos ut earum, labore quod reprehenderit ea rem atque in molestiae consectetur ad recusandae odio ratione nam expedita autem omnis et sequi! Illo nobis fugiat corporis molestias sed inventore odit ex omnis possimus officia a deserunt porro laboriosam dolore, ut repudiandae tempore cum magni.
+          </div>
+        </div>
+      </div>
       <div class="col-12 col-lg-6 p-0 mx-auto">
-        <img class="img-fluid d-block mx-auto" src="img/o-nama2.jpg" alt="">
+        <!-- <div>
+          <img class="pet-bcg-img-anim p-0 m-0" src="img/paw-bcg.jpg" alt="">
+        </div> -->
+        <div class="pet-div-anim4">
+          <img class="img-fluid d-block mx-auto pet-img-anim4" src="img/o-nama2.jpg" alt="">
+        </div>
       </div>
     </div> <!-- row ends -->
   </div> <!-- container ends -->
             <!-- o nama section ends-->
-        
 
+  </div> <!-- pet-main-content-all-wrapper ends -->
         <!-- *** MAIN CONTENT area ends *** -->
 
 
