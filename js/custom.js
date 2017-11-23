@@ -97,27 +97,7 @@ function anim() {
 
 document.addEventListener('scroll', anim);
 
-// .wrapper {
-//     position: relative;
-//     overflow: hidden;
-//     width: 100px;
-//     height: 100px; 
-//     border: 1px solid black;
-// }
 
-// #slide {
-//     position: absolute;
-//     left: -100px;
-//     width: 100px;
-//     height: 100px;
-//     background: blue;
-//     transition: 1s;
-// }
-
-// .wrapper:hover #slide {
-//     transition: 1s;
-//     left: 0;
-// }
 
 
 
