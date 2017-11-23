@@ -39,7 +39,7 @@ var spanAnim2 = $('.pet-ex-span-anim2');
 function anim() {
 
   // 'hidden nav' animation
-  if (window.pageYOffset > 290) {
+  if (window.pageYOffset > 15) {
     logo.style.marginTop = '-150px';
     logo.style.transition = '1s';
     petNav.style.height = '50px';
@@ -54,7 +54,7 @@ function anim() {
   }
   
   // 'side bar' animation
-  if (window.pageYOffset > 290) {
+  if (window.pageYOffset > 15) {
     sideBarHolder.style.left = '-200px';
     sideBarHolder.style.transition = '1s';
 
