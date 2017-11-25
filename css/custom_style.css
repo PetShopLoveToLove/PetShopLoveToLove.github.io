@@ -19,6 +19,10 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+p, address {
+  letter-spacing: 0.5px;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -32,7 +36,8 @@ a:hover {
 
 .pet-main-logo {
   width: 80px;
-  height: 80px;
+  /*height: 80px;*/
+  padding: 1em;
   z-index: 2;
 }
 
@@ -143,6 +148,40 @@ drugi nacin isticanja trenutnog linka*/
 #o-nama {
   height: 100px;
 }
+
+/*FOOTER*/
+
+footer {
+  background-color: #515151;
+  color: #fff;
+}
+
+.logo-footer {
+  height: 50px;
+  margin: 2.5em;
+}
+
+footer > div {
+  margin: 2.5em;
+}
+
+.copyright {
+  color: #000;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+/*/FOOTER*/
+
 
 /*KONTAKT MAIN CONTENT*/
 
