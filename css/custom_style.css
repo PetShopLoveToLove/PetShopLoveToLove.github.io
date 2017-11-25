@@ -12,8 +12,11 @@
 
 /*01 GENERALS*/
 
+
+
 body {
   background: #e6e387;
+  font-family: 'Oxygen', sans-serif;
 }
 
 a:hover {
@@ -39,14 +42,14 @@ a:hover {
 }
 
 .pet-nav-ul {
-  font-family: 'Indie Flower', cursive;
+  /*font-family: 'Indie Flower', cursive;----------------------------*/
   font-size: 23px;
 }
 
 .pet-nav-link {
   width: 100px;
   color: black !important;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .pet-nav-link:hover {
@@ -88,7 +91,7 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-side-bar-txt-all {
   color: white;
-  font-family: 'Indie Flower', cursive;
+  /*font-family: 'Indie Flower', cursive;-----------------------------*/
   font-size: 20px;
   text-shadow: 0 0 5px black;
   font-weight: bold;
@@ -120,15 +123,19 @@ drugi nacin isticanja trenutnog linka*/
   transition: 0s !important;
 
 }
+.carousel-caption > p {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /*o nama*/
 
 .pet-o-nama-title {
-  font-family: 'Indie Flower', cursive;
+  /*font-family: 'Indie Flower', cursive;-------------------------*/
 }
 
 .pet-o-nama-txt {
-  font-family: 'Kalam', cursive;
+  /*font-family: 'Kalam', cursive;-----------------------------------*/
+  font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   /*background: #efe248;*/
 }
