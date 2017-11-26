@@ -35,9 +35,9 @@ a:hover {
 }
 
 .pet-main-logo {
-  width: 80px;
+  width: 100px;
   /*height: 80px;*/
-  padding: 1em;
+  padding: 0.5em;
   z-index: 2;
 }
 
