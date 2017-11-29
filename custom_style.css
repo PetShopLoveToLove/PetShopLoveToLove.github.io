@@ -10,6 +10,8 @@
 
 /*MEDIA QUERY*/
 
+/*ANIMATIONS*/
+
 /*01 GENERALS*/
 
 html {
@@ -54,26 +56,30 @@ body {
 }
 
 .pet-nav-ul {
-  font-family: 'Indie Flower', cursive;
   font-size: 21px;
 }
 
 .pet-nav-link {
   width: 100px;
-  color: black !important;
   font-weight: bold;
+  color: black!important;
 }
 
 .pet-nav-link:hover {
-  text-decoration: underline;
+  background: #58401b;
+  color: white !important;
+  border-radius: 10px;
+  font-size: 25px;
 }
 
 /*Umesto klase .active koristimo
 drugi nacin isticanja trenutnog linka*/
 
 .o-nama .o-nama-nav, .kontakt .kontakt-nav, .galerija .galerija-nav, .blog .blog-nav, .ponuda .ponuda-nav {
-  background: #efca16;
+  background: #58401b;
+  color: white !important;
   border-radius: 10px;
+  font-size: 25px;
 }
 
 /*03 NASLOVNA MAIN CONTENT*/
@@ -87,7 +93,7 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-side-bar-holder {
   position: absolute;
-  left: 0; 
+  left: 0;
   background: transparent;
   height: 400px;
   width: 52%;
@@ -230,7 +236,7 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-ponuda-start-bcg {
   background-image: url('img/ponuda1.jpg');
-  min-height: 470px; 
+  min-height: 470px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -290,7 +296,7 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-ponuda-kuce-special-bcg {
   background-image: url('kuce-special-bcg.jpg');
-  height: 533px; 
+  height: 533px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -321,7 +327,7 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-ponuda-mace-special-bcg {
   background-image: url('mace-special-bcg.jpg');
-  min-height: 533px; 
+  min-height: 533px;
   background-attachment: fixed;
   background-position: 50% -20%;
   background-repeat: no-repeat;
@@ -344,7 +350,7 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-ponuda-ptice-special-bcg {
   background-image: url('ptice-special-bcg.jpg');
-  min-height: 533px; 
+  min-height: 533px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -367,7 +373,7 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-ponuda-mali-drugari-special-bcg {
   background-image: url('mali-drugari-special-bcg.jpg');
-  min-height: 533px; 
+  min-height: 533px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -452,7 +458,7 @@ drugi nacin isticanja trenutnog linka*/
     width: 55px;
     z-index: 1;
   }
-  
+
   .pet-side-bar-holder-hidden-not_o_nama {
     float: left;
     top: 50px;
@@ -566,12 +572,12 @@ drugi nacin isticanja trenutnog linka*/
   .pet-large-screen-side-bar-solution, .pet-fa-icon-paw {
     display: none;
   }
-  
+
   /*hidden lg side bar hidden*/
   .pet-side-bar-holder-hidden {
     display: none;
   }
- 
+
   /*under-nav bar visible*/
   .pet-mobile-side-bar-solution {
     display: block;
@@ -595,7 +601,7 @@ drugi nacin isticanja trenutnog linka*/
   .pet-map {
     height: 20rem;
   }
-  
+
   /*text 'o nama' background*/
   .pet-o-nama-txt {
     background: #efe248;
@@ -632,7 +638,7 @@ drugi nacin isticanja trenutnog linka*/
   /*saveti bcg height*/
 
   .pet-ponuda-kuce-special-bcg, .pet-ponuda-mace-special-bcg, .pet-ponuda-ptice-special-bcg, .pet-ponuda-mali-drugari-special-bcg {
-    height: 973px; 
+    height: 973px;
   }
 
 }
@@ -645,9 +651,3 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 /*TEST AREA*/
-
-
-
-
-
-
