@@ -15,17 +15,15 @@
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
-  <!-- wow js - animate -->
-  <link rel="stylesheet" href="wow_js/animate.css">
   <!-- custom style -->
-  <link rel="stylesheet" type="text/css" href="css/custom_style.css">
+  <link rel="stylesheet" type="text/css" href="custom_style.css">
 </head>
 
 <body class="blog">
 
   <!-- *** HEADER area *** -->
 
-  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0">
+  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0 sticky-top">
     <button class="navbar-toggler navbar-toggler-right mt-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,6 +33,9 @@
         <img class="pet-main-logo ml-4" src="img/logo.jpg" alt="pet-shop logo">
         <img class="pet-logo-img ml-3" src="img/LtL1.jpg" alt="kuca i maca">
       </a>
+    </div>
+    <div class="pet-hidden-logo-holder">
+      <a class="navbar-brand" href="index.html"><img src="img/love_to_love_logo_footer.svg" alt="love to love pet shop logo" class="pet-hidden-logo-img"></a>
     </div>
     <!-- nav-bar -->
     <div class="collapse navbar-collapse pet-nav" id="navbarNav">
@@ -61,78 +62,102 @@
   <!-- *** HEADER area ends *** -->
 
   <!-- *** BLOG MAIN CONTENT area *** -->
-  <div class="blog py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card-columns">
-            <div class="card">
-              <img src="http://www.lorempixel.com/500/500/cats/1" alt="" class="card-img-top img-fluid">
-              <div class="card-body">
-                <h4 class="card-title">Blog Post One</h4>
-                <small class="text-muted">Written by Jeff on 07/20</small>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
-              </div>
-            </div>
+  
+            <!-- hidden large screen side bar -->
+  <div class="pet-side-bar-holder-hidden-not_o_nama d-flex flex-column justify-content-around sticky-top">
+    <a href="index.html#kuce"><div class="pet-fa-icon-paw pet-fa-icon-paw1 mx-auto text-center">
+      <img src="img/dog.png" alt="ikona psa">
+        <div class="pet-icons-txt">kuce</div>
+    </div></a>
+    <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw2 mx-auto text-center">
+      <img src="img/cat.png" alt="ikona macke">
+        <div class="pet-icons-txt">mace</div>
+    </div></a>
+    <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw3 mx-auto text-center">
+      <img src="img/bird.png" alt="ikona ptice">
+        <div class="pet-icons-txt">ptice</div>
+    </div></a>
+    <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw4 mx-auto text-center">
+      <img src="img/bunny.png" alt="ikona zeca"><img src="img/fish.png" alt="ikona ribice">
+        <div class="pet-icons-txt">mali<br>drugari</div>
+    </div></a>
+  </div> <!-- pet-side-bar-holder-hidden ends -->
+            <!-- hidden large screen side bar ends-->
+    
+    <div class="blog py-3">
 
-            <div class="card">
-              <img src="http://www.lorempixel.com/500/500/cats/2" alt="" class="card-img-top img-fluid">
-              <div class="card-body">
-                <h4 class="card-title">Blog Post Two</h4>
-                <small class="text-muted">Written by Jeff on 07/20</small>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+      <!-- blog area -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-columns">
+              <div class="card">
+                <img src="http://www.lorempixel.com/500/500/cats/1" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post One</h4>
+                  <small class="text-muted">Written by Jeff on 07/20</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+                </div>
               </div>
-            </div>
 
-            <div class="card">
-              <img src="http://www.lorempixel.com/500/500/cats/3" alt="" class="card-img-top img-fluid">
-              <div class="card-body">
-                <h4 class="card-title">Blog Post Three</h4>
-                <small class="text-muted">Written by Jeff on 07/20</small>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+              <div class="card">
+                <img src="http://www.lorempixel.com/500/500/cats/2" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post Two</h4>
+                  <small class="text-muted">Written by Jeff on 07/20</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+                </div>
               </div>
-            </div>
 
-            <div class="card">
-              <img src="http://www.lorempixel.com/500/500/cats/4" alt="" class="card-img-top img-fluid">
-              <div class="card-body">
-                <h4 class="card-title">Blog Post Four</h4>
-                <small class="text-muted">Written by Jeff on 07/20</small>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+              <div class="card">
+                <img src="http://www.lorempixel.com/500/500/cats/3" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post Three</h4>
+                  <small class="text-muted">Written by Jeff on 07/20</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+                </div>
               </div>
-            </div>
 
-            <div class="card">
-              <img src="http://www.lorempixel.com/500/500/cats/5" alt="" class="card-img-top img-fluid">
-              <div class="card-body">
-                <h4 class="card-title">Blog Post Five</h4>
-                <small class="text-muted">Written by Jeff on 07/20</small>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+              <div class="card">
+                <img src="http://www.lorempixel.com/500/500/cats/4" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post Four</h4>
+                  <small class="text-muted">Written by Jeff on 07/20</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+                </div>
               </div>
-            </div>
 
-            <div class="card">
-              <img src="http://www.lorempixel.com/500/500/cats/6" alt="" class="card-img-top img-fluid">
-              <div class="card-body">
-                <h4 class="card-title">Blog Post Six</h4>
-                <small class="text-muted">Written by Jeff on 07/20</small>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+              <div class="card">
+                <img src="http://www.lorempixel.com/500/500/cats/5" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post Five</h4>
+                  <small class="text-muted">Written by Jeff on 07/20</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+                </div>
               </div>
-            </div>
 
+              <div class="card">
+                <img src="http://www.lorempixel.com/500/500/cats/6" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post Six</h4>
+                  <small class="text-muted">Written by Jeff on 07/20</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus, voluptatibus. Et possimus doloribus, repellat, atque quaerat iure, quia facilis delectus laboriosam distinctio porro temporibus vel accusamus. Nulla, quidem temporibus.</p>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-
+  </div> <!-- pet-main-content-all-wrapper ends -->
 
 
 

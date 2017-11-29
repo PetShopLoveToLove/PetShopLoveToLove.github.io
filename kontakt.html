@@ -15,17 +15,15 @@
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
-  <!-- wow js - animate -->
-  <link rel="stylesheet" href="wow_js/animate.css">
   <!-- custom style -->
-  <link rel="stylesheet" type="text/css" href="css/custom_style.css">
+  <link rel="stylesheet" type="text/css" href="custom_style.css">
 </head>
 
 <body class="kontakt">
 
   <!-- *** HEADER area *** -->
 
-  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0">
+  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0 sticky-top">
     <button class="navbar-toggler navbar-toggler-right mt-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,6 +33,9 @@
         <img class="pet-main-logo ml-4" src="img/logo.jpg" alt="pet-shop logo">
         <img class="pet-logo-img ml-3" src="img/LtL1.jpg" alt="kuca i maca">
       </a>
+    </div>
+    <div class="pet-hidden-logo-holder">
+      <a class="navbar-brand" href="index.html"><img src="img/love_to_love_logo_footer.svg" alt="love to love pet shop logo" class="pet-hidden-logo-img"></a>
     </div>
     <!-- nav-bar -->
     <div class="collapse navbar-collapse pet-nav" id="navbarNav">
@@ -63,8 +64,30 @@
 
 
   <!-- *** KONTAKT MAIN CONTENT area *** -->
+  
+              <!-- hidden large screen side bar -->
+  <div class="pet-side-bar-holder-hidden-not_o_nama d-flex flex-column justify-content-around sticky-top">
+    <a href="index.html#kuce"><div class="pet-fa-icon-paw pet-fa-icon-paw1 mx-auto text-center">
+      <img src="img/dog.png" alt="ikona psa">
+        <div class="pet-icons-txt">kuce</div>
+    </div></a>
+    <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw2 mx-auto text-center">
+      <img src="img/cat.png" alt="ikona macke">
+        <div class="pet-icons-txt">mace</div>
+    </div></a>
+    <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw3 mx-auto text-center">
+      <img src="img/bird.png" alt="ikona ptice">
+        <div class="pet-icons-txt">ptice</div>
+    </div></a>
+    <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw4 mx-auto text-center">
+      <img src="img/bunny.png" alt="ikona zeca"><img src="img/fish.png" alt="ikona ribice">
+        <div class="pet-icons-txt">mali<br>drugari</div>
+    </div></a>
+  </div> <!-- pet-side-bar-holder-hidden ends -->
+            <!-- hidden large screen side bar ends-->
 
-  <div class="container-fluid">
+  <!-- kontakt -->
+  <div class="container">
     <div class="row">
       <div class="col-sm-12 col-lg-4">
         <div id="map" class="pet-map mx-auto my-4"></div>
