@@ -37,7 +37,7 @@ var spanAnim2 = $('.pet-ex-span-anim2');
 function animLogoSideBarOnama() {
 
   // 'lg screen' hidden nav' animation
-  if (window.pageYOffset > 50) {
+  if (window.innerWidth > 991 && window.pageYOffset > 50) {
     logo.style.marginTop = '-150px';
     logo.style.opacity = '0.3';
     logo.style.transition = '1s';
@@ -45,14 +45,14 @@ function animLogoSideBarOnama() {
     petNav.style.transition = '1s';
   }
 
-  else {
+  else if(window.innerWidth>991){
     logo.style.marginTop = '0';
     logo.style.opacity = '1';
     logo.style.transition = '1s';
     petNav.style.height = '103px';
     petNav.style.transition = '1s';
   }
-   
+
   // 'lg screen side bar' animation
   if (window.pageYOffset > 15) {
     sideBarHolder.style.left = '-200px';
@@ -70,9 +70,9 @@ function animLogoSideBarOnama() {
     sideBarHolderHidden.style.marginLeft = '-53px';
     sideBarHolderHidden.style.transition = '1s';
   }
-  
+
   //'o nama' animation
-  if (window.pageYOffset > 550) { 
+  if (window.pageYOffset > 550) {
     imgAnim1.style.height = '100%';
     imgAnim1.style.width = '100%';
     imgAnim1.style.transition = '1s';
@@ -116,28 +116,18 @@ function animHiddenSideBarNotOnamaPages() {
 var hiddenLogo = $('.pet-hidden-logo-img');
 
 function hiddenLogoShow() {
-  
-  if (window.pageYOffset > 150) {
+
+  if (window.innerWidth > 991 && window.pageYOffset > 150) {
     hiddenLogo.style.opacity = '1';
     hiddenLogo.style.transition = '1.5s';
   }
   else {
     hiddenLogo.style.opacity = '0';
     hiddenLogo.style.transition = '1s';
-  }  
+  }
 };
 
 
 document.addEventListener('scroll', animLogoSideBarOnama);
 document.addEventListener('scroll', hiddenLogoShow);
 document.addEventListener('scroll', animHiddenSideBarNotOnamaPages);
-
-
-
-
-
-
-
-
-
-
