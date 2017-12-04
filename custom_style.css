@@ -24,6 +24,10 @@ body {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 /*02 HEADER*/
 
 .pet-main-nav {
@@ -61,15 +65,16 @@ body {
 
 .pet-nav-link {
   width: 100px;
-  font-weight: bold;
+  font-weight: 600;
   color: black!important;
+  border-radius: 10px;
 }
 
 .pet-nav-link:hover {
   background: #58401b;
   color: white !important;
-  border-radius: 10px;
-  font-size: 25px;
+  font-size: 23px;
+  transition: 1s;
 }
 
 /*Umesto klase .active koristimo
@@ -79,7 +84,7 @@ drugi nacin isticanja trenutnog linka*/
   background: #58401b;
   color: white !important;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 /*03 NASLOVNA MAIN CONTENT*/
@@ -94,6 +99,8 @@ drugi nacin isticanja trenutnog linka*/
 .pet-side-bar-holder {
   position: absolute;
   left: 0;
+  top: 100px;
+  position: fixed;
   background: transparent;
   height: 400px;
   width: 52%;
@@ -110,14 +117,13 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-side-bar-txt-all {
   color: white;
-  font-family: 'Indie Flower', cursive;
-  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
   text-shadow: 0 0 5px black;
-  font-weight: bold;
 }
 
 .pet-side-bar-txt-all:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .pet-side-bar-txt-123 {
@@ -126,54 +132,63 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 .pet-side-bar-txt-4 {
-  margin-top: -30px;
+  margin-top: -15px;
   margin-left: -9px;
 }
 
 /*carousel */
 
+.pet-carousel-col {
+  margin-top: 110px;
+}
+
 .pet-slider-holder {
   background: whitesmoke;
 }
 
+ .carousel-item {
+  max-height: 530px;
+}
+
+
 .pet-carousel-control {
-    font-size: 42px;
-    color: #ffd80d;
-  }
+  font-size: 42px;
+  color: #ffd80d;
+}
 
-  .pet-control-left {
-    transform: rotate(265deg);
-  }
+.pet-control-left {
+  transform: rotate(265deg);
+}
 
-  .pet-control-right {
-    transform: rotate(90deg);
-  }
+.pet-control-right {
+  transform: rotate(90deg);
+}
 
-  .pet-carousel-indicators {
-    max-width: 20px;
-    height: 12px !important;
-    border-radius: 30px;
-  }
+.pet-carousel-indicators {
+  max-width: 20px;
+  height: 12px !important;
+  border-radius: 30px;
+}
 
-  .pet-carousel-h3-1, .pet-carousel-h3-2, .pet-carousel-h3-3  {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 70px;
-    margin-top: -230px;
-    color: #ffd80d;
-  }
+.pet-carousel-h3-1, .pet-carousel-h3-2, .pet-carousel-h3-3  {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  margin-top: -230px;
+  color: #ffd80d;
+}
 
-  .pet-carousel-h3-1 {
-    transform: rotate(342deg);
-  }
+.pet-carousel-h3-1 {
+  transform: rotate(342deg);
+}
 
-  .pet-carousel-h3-2 {
-    transform: rotate(15deg);
-  }
+.pet-carousel-h3-2 {
+  transform: rotate(15deg);
+}
 
-  .pet-carousel-p {
-    font-size: 30px;
-    color: #ffd80d;
-  }
+.pet-carousel-p {
+  font-size: 30px;
+  color: #ffd80d;
+}
 
 
 .carousel-inner .carousel-item {
@@ -186,7 +201,7 @@ drugi nacin isticanja trenutnog linka*/
 /*o nama*/
 
 .pet-o-nama-title {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Dosis', sans-serif;
   max-width: 500px;
 }
 
@@ -271,8 +286,6 @@ drugi nacin isticanja trenutnog linka*/
   border-radius: 5px;
 }
 
-/*ponuda kuce*/
-
 .pet-kuce-container {
   background: #87a2eb;
   color: whitesmoke;
@@ -290,6 +303,35 @@ drugi nacin isticanja trenutnog linka*/
 
 .pet-kuce-sub-txt {
   text-shadow: 0 0 2px black;
+}
+
+.pet-opsti-txt {
+  min-width: 300px;
+}
+
+.pet-content {
+  width: 250px;
+  height: 300px;
+}
+
+.pet-content p {
+  font-size: 18px;
+}
+
+.pet-cat-bed-holder {
+  margin-top: 120px;
+}
+
+.pet-cat-toy {
+  margin-top: -30px;
+}
+
+.pet-bird-cage {
+  height: 320px;
+}
+
+.pet-bird-cage-content {
+  margin-top: 55px;
 }
 
 /*kuce saveti*/
@@ -329,7 +371,7 @@ drugi nacin isticanja trenutnog linka*/
   background-image: url('mace-special-bcg.jpg');
   min-height: 533px;
   background-attachment: fixed;
-  background-position: 50% -20%;
+  background-position: 80% -70%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -399,7 +441,7 @@ drugi nacin isticanja trenutnog linka*/
   position: relative;
 }
 
-.card{
+.card {
   background-color: white;
 }
 
@@ -449,22 +491,12 @@ drugi nacin isticanja trenutnog linka*/
   }
 
   /*hidden side-bar*/
-  .pet-side-bar-holder-hidden {
-    float: left;
+  .pet-side-bar-holder-hidden, .pet-side-bar-holder-hidden-not_o_nama {
+    position: fixed;
     top: 50px;
     margin-left: -60px;
     background: rgba(255, 255, 255, 0);
     height: 500px;
-    width: 55px;
-    z-index: 1;
-  }
-
-  .pet-side-bar-holder-hidden-not_o_nama {
-    float: left;
-    top: 50px;
-    margin-left: -60px;
-    background: rgba(255, 255, 255, 0);
-    height: 465px;
     width: 55px;
     z-index: 1;
   }
@@ -496,14 +528,7 @@ drugi nacin isticanja trenutnog linka*/
     color: lightgray;
     font-size: 16px;
     text-shadow: 0 0 1px black;
-    /*background: rgba(150, 150, 150, 0.5);*/
     line-height: 17px;
-  }
-
-  .clearfix:after {
-      content: "";
-      clear: both;
-      display: table;
   }
 
   /*animation 'o nama'*/
@@ -651,3 +676,15 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 /*TEST AREA*/
+
+/*.pet-main-nav, .logo-holder, .pet-nav,  {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+}*/
+
+

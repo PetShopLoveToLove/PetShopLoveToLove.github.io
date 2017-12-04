@@ -13,10 +13,7 @@
   <!-- font awesome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
   <!-- custom style -->
   <link rel="stylesheet" type="text/css" href="custom_style.css">
 </head>
@@ -25,7 +22,7 @@
 
         <!-- *** HEADER area *** -->
 
-  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0 sticky-top">
+  <nav class="pet-main-nav navbar navbar-toggleable-md navbar-light bg-faded p-0 fixed-top">
     <button class="navbar-toggler navbar-toggler-right mt-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -47,7 +44,7 @@
             <a class="o-nama-nav nav-link pet-nav-link p-1" href="#o-nama">O nama</a>
           </li>
           <li class="nav-item mx-auto mx-lg-4 d-flex align-items-center text-center text-capitalize">
-            <a class="ponuda-nav nav-link pet-nav-link p-1" href="#">Ponuda</a>
+            <a class="ponuda-nav nav-link pet-nav-link p-1" href="#ponuda">Ponuda</a>
           </li>
           <li class="nav-item mx-auto mx-lg-4 d-flex align-items-center text-center text-capitalize">
             <a class="galerija-nav nav-link pet-nav-link p-1" href="#">Galerija</a>
@@ -70,23 +67,23 @@
   <div class="pet-main-content-all-wrapper">
 
               <!-- hidden large screen side bar -->
-    <div class="pet-side-bar-holder-hidden d-flex flex-column justify-content-around sticky-top">
+    <div class="pet-side-bar-holder-hidden d-flex flex-column justify-content-around">
       <a href="#kuce"><div class="pet-fa-icon-paw pet-fa-icon-paw1 ml-1 text-center round p-1">
         <!-- <i class="fa fa-paw" aria-hidden="true"></i> -->
         <img src="img/dog.png" alt="ikona psa">
         <div class="pet-icons-txt">kuce</div>
       </div></a>
-      <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw2 ml-1 text-center round p-1">
+      <a href="#mace"><div class="pet-fa-icon-paw pet-fa-icon-paw2 ml-1 text-center round p-1">
         <!-- <i class="fa fa-paw" aria-hidden="true"></i> -->
         <img src="img/cat.png" alt="ikona macke">
         <div class="pet-icons-txt">mace</div>
       </div></a>
-      <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw3 ml-1 text-center rounder p-1">
+      <a href="#ptice"><div class="pet-fa-icon-paw pet-fa-icon-paw3 ml-1 text-center rounder p-1">
         <!-- <i class="fa fa-paw" aria-hidden="true"></i> -->
         <img src="img/bird.png" alt="ikona ptice">
         <div class="pet-icons-txt">ptice</div>
       </div></a>
-      <a href=""><div class="pet-fa-icon-paw pet-fa-icon-paw4 ml-1 text-center rounder p-1">
+      <a href="#mali-drugari"><div class="pet-fa-icon-paw pet-fa-icon-paw4 ml-1 text-center rounder p-1">
         <!-- <i class="fa fa-paw" aria-hidden="true"></i> -->
         <img src="img/bunny.png" alt="ikona zeca"><img src="img/fish.png" alt="ikona ribice">
         <div class="pet-icons-txt pr-2 text-right">mali drugari</div>
@@ -104,19 +101,19 @@
           </a>
         </div>
         <div class="pet-side-bar-content-holder col-3 text-center pt-4">
-          <a href="#">
+          <a href="#mace">
           <h4 class="pet-side-bar-txt-123 pet-side-bar-txt-all">MACE</h4>
           <img class="pet-side-bar-img img-fluid" src="img/mace1.jpg" alt="macke">
           </a>
         </div>
         <div class="pet-side-bar-content-holder col-3 text-center pt-4">
-          <a href="#">
+          <a href="#ptice">
           <h4 class="pet-side-bar-txt-123 pet-ptice pet-side-bar-txt-all">PTIČICE</h4>
           <img class="pet-side-bar-img img-fluid" src="img/ptice1.jpg" alt="ptice">
           </a>
         </div>
         <div class="pet-side-bar-content-holder col-3 text-center pt-4">
-          <a href="#">
+          <a href="#mali-drugari">
           <h4 class="pet-side-bar-txt-4 pet-side-bar-txt-all">MALI DRUGARI</h4>
           <img class="pet-side-bar-img img-fluid" src="img/mali-drugari1.jpg" alt="male zivotinje">
           </a>
@@ -137,19 +134,19 @@
               </a>
             </div>
             <div class="pet-side-bar-content-holder">
-              <a href="#">
+              <a href="#mace">
               <img class="pet-side-bar-img img-fluid mt-3" src="img/mace1.jpg" alt="macke">
               <h4 class="pet-side-bar-txt-123 pet-side-bar-txt-all">MACE</h4>
               </a>
             </div>
             <div class="pet-side-bar-content-holder">
-              <a href="#">
+              <a href="#ptice">
               <img class="pet-side-bar-img img-fluid mt-3" src="img/ptice1.jpg" alt="ptice">
               <h4 class="pet-side-bar-txt-123 pet-ptice pet-side-bar-txt-all">PTIČICE</h4>
               </a>
             </div>
             <div class="pet-side-bar-content-holder">
-              <a href="#">
+              <a href="#mali-drugari">
               <img class="pet-side-bar-img img-fluid mt-3" src="img/mali-drugari1.jpg" alt="male zivotinje">
               <h4 class="pet-side-bar-txt-4 pet-side-bar-txt-all">MALI DRUGARI</h4>
               </a>
@@ -160,7 +157,7 @@
             <!-- large screen side bar ends-->
 
             <!-- carousel -->
-        <div class="col-12 col-lg-9 carousel-col">
+        <div class="col-12 col-lg-9 pet-carousel-col">
           <div class="pet-slider-holder mt-4 p-sm-0">
              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -170,21 +167,21 @@
               </ol>
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-                    <img class="pet-crs-img" src="img/pets1.jpg" alt="...">
+                    <img class="pet-crs-img d-block img-fluid" src="img/pets1.jpg" alt="...">
                     <div class="carousel-caption">
                       <h3 class="pet-carousel-h3-1">AKCIJA</h3>
                       <p class="pet-carousel-p mt-4">nesto nesto nesto</p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="pet-crs-img" src="img/pets2.jpg" alt="...">
+                    <img class="pet-crs-img d-block img-fluid" src="img/pets2.jpg" alt="...">
                     <div class="carousel-caption">
                       <h3 class="pet-carousel-h3-2">POPUST 100%</h3>
                       <p class="pet-carousel-p mt-4">nesto nesto nesto</p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="pet-crs-img" src="img/pets3.jpg" alt="...">
+                    <img class="pet-crs-img d-block img-fluid" src="img/pets3.jpg" alt="...">
                     <div class="carousel-caption">
                       <h3 class="pet-carousel-h3-3">NA SVE</h3>
                       <p class="pet-carousel-p mt-4">nesto nesto nesto</p>
@@ -252,7 +249,7 @@
               <!-- o nama section ends-->
 
               <!-- fake line paw icon-->
-    <div class="pet-fake-line d-flex flex-row justify-content-center mx-auto">
+    <div id="ponuda" class="pet-fake-line d-flex flex-row justify-content-center mx-auto">
       <div class="pet-fake-line-div-1"></div>
       <div class="pet-fake-line-div-2 text-center rounded-circle d-flex justify-content-center"><i class="pet-fake-line-fa-paw fa fa-paw align-self-center" aria-hidden="true"></i></div>
       <div class="pet-fake-line-div-1"></div>
@@ -267,7 +264,7 @@
               <h1 class="pet-ponuda-title mx-auto mt-4">NAŠA PONUDA</h1>
               <h5 class="pet-ponuda-subtitle mx-auto mt-3 text-center">proizvodi vrhunskog kvaliteta koji ce pomoći vasem ljubimcu da zivi dug srećan i zdrav život</h5>
               <hr style="width: 70px; height: 2px; border: 1px solid white; margin-top: 35px; margin-bottom: 20px;">
-              <p class="pet-ponuda-start-opsti-txt mx-auto p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cumque culpa ad! Obcaecati blanditiis corrupti recusandae minus aperiam. A nisi incidunt, dolorum ea! Illum, molestias enim consequuntur. Corporis sed porro doloribus sunt, laborum quas eligendi quis reprehenderit in, voluptatem, voluptates esse quam cumque commodi consequuntur facilis!</p>
+              <p class="pet-ponuda-start-opsti-txt mx-auto p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cumque culpa ad! Obcaecati blanditiis corrupti recusandae minus aperiam. A nisi incidunt, dolorum ea! Illum, molestias enim consequuntur. Corporis sed porro doloribus <span id="kuce"></span> sunt, laborum quas eligendi quis reprehenderit in, voluptatem, voluptates esse quam cumque commodi consequuntur facilis!</p>
             </div> <!-- pet-ponuda-start-txt ends -->
           </div> <!-- pet-ponuda-start-bcg ends -->
         </div> <!-- col ends -->
@@ -275,22 +272,35 @@
     </div> <!-- container ends -->
 
           <!-- kuce ponuda -->
-    <div id="kuce" class="container-fluid no-gutters pet-kuce-container">
+    <div class="container-fluid no-gutters pet-kuce-container">
       <div class="row">
-        <div class="col-12 col-sm-5">
+        <div class="col-12 col-md-5">
           <div class="pet-kuce-ponuda-img-wrapper">
             <div class="pet-kuce-img-holder rounded-circle p-4 ml-0 ml-sm-5  text-center">
               <img class="pet-kuce-img img-fluid rounded-circle p-2" src="img/kuce1.jpg" alt="slika psa">
-              <h1 class="pet-kuce-title text-center mt-2">KUCE</h1>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              <div class="pet-opsti-txt">
+                <h1 class="pet-kuce-title text-center mt-2">KUCE</h1>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-7 p-0">
-          <div class="pet-kuce-ponuda-txt-holder">
-
-          </div>
+        <div class="col-12 col-md-7 p-0">
+          <div class="pet-content-holder d-flex flex-wrap justify-content-around mt-4">
+            <div class="pet-content mt-4">
+              <img class="img-fluid" src="img/dog-food.png" alt="hrana za pse">
+              <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Hrana</p>
+            </div>
+            <div class="pet-content">
+              <img class="img-fluid" src="img/dog-bed.png" alt="krevetic za pse">
+              <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Krevetići</p>
+            </div>
+            <div class="pet-content">
+              <img class="img-fluid" src="img/dog-toy.png" alt="igracka za pse">
+              <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Igračke</p>
+            </div>
+          </div> <!-- pet-content-holder ends -->
         </div>
       </div> <!-- row ends -->
     </div> <!-- container ends -->
@@ -304,7 +314,7 @@
              <div class="pet-kuce-saveti-title text-center"><h1 class="pet-ponuda-title mx-auto mt-4">SAVETI ZA SRETNE KUCE</h1></div>
               <div class="pet-kuce-saveti-holder d-flex flex-md-row flex-column mx-auto mt-4">
                 <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.</p></div>
-                <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.</p></div>
+                <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.<span id="mace"></span></p></div>
               </div>
             </div>
           </div> <!-- pet-ponuda-kuce-special-bcg ends -->
@@ -316,20 +326,35 @@
             <!-- mace ponuda -->
     <div class="container-fluid no-gutters pet-mace-container">
       <div class="row">
-        <div class="col-12 col-sm-5">
+        <div class="col-12 col-md-5">
           <div class="pet-kuce-ponuda-img-wrapper">
             <div class="pet-kuce-img-holder rounded-circle p-4 ml-0 ml-sm-5  text-center">
               <img class="pet-mace-img img-fluid rounded-circle p-2" src="img/mace1.jpg" alt="slika mačke">
-              <h1 class="pet-kuce-title text-center mt-4">MACE</h1>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              <div class="pet-opsti-txt">
+                <h1 class="pet-kuce-title text-center mt-4">MACE</h1>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-7">
-          <div class="pet-kuce-ponuda-txt-holder">
-
-          </div>
+        <div class="col-12 col-md-7">
+          <div class="pet-content-holder d-flex flex-wrap justify-content-around mt-4">
+            <div class="pet-content mt-4">
+              <img class="img-fluid" src="img/cat-food.png" alt="hrana za macke">
+              <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Hrana</p>
+            </div>
+            <div class="pet-content">
+              <div class="pet-cat-bed-holder">
+              <img class="img-fluid" src="img/cat-bed.png" alt="krevetic za macke">
+              <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Krevetići</p>
+              </div>
+            </div>
+            <div class="pet-content">
+              <img class="img-fluid" src="img/cat-toy.png" alt="igracka za macke">
+              <p class="text-center pet-cat-toy"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Igračke</p>
+            </div>
+          </div> <!-- pet-content-holder ends -->
         </div>
       </div> <!-- row ends -->
     </div> <!-- container ends -->
@@ -343,7 +368,7 @@
              <div class="pet-kuce-saveti-title text-center"><h1 class="pet-ponuda-title mx-auto mt-4 my-2">SAVETI ZA SRETNE MACE</h1></div>
               <div class="pet-kuce-saveti-holder d-flex flex-md-row flex-column mx-auto mt-4">
                 <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.</p></div>
-                <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.</p></div>
+                <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.<span id="ptice"></span></p></div>
               </div>
             </div>
           </div> <!-- pet-ponuda-mace-special-bcg ends -->
@@ -355,19 +380,32 @@
             <!-- ptice ponuda -->
     <div class="container-fluid no-gutters pet-ptice-container">
       <div class="row">
-        <div class="col-12 col-sm-5">
+        <div class="col-12 col-md-5">
           <div class="pet-kuce-ponuda-img-wrapper">
             <div class="pet-kuce-img-holder rounded-circle p-4 ml-0 ml-sm-5  text-center">
               <img class="pet-ptice-img img-fluid rounded-circle p-2" src="img/ptice1.jpg" alt="slika mačke">
-              <h1 class="pet-kuce-title text-center mt-4">PTICE</h1>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              <div class="pet-opsti-txt">
+                <h1 class="pet-kuce-title text-center mt-4">PTICE</h1>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-7">
-          <div class="pet-kuce-ponuda-txt-holder">
-
+        <div class="col-12 col-md-7">
+          <div class="pet-ponuda-txt-holder mt-4">
+            <div class="pet-content-holder d-flex flex-wrap justify-content-around mt-5">
+            <div class="pet-content mt-5">
+              <img class="img-fluid" src="img/bird-food.png" alt="hrana za ptice">
+              <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Hrana</p>
+            </div>
+            <div class="pet-content pet-bird-cage mt-5">
+              <div class="pet-bird-cage-content">
+                <img class="img-fluid" src="img/bird-cage.png" alt="kavezi za ptice">
+                <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Kavezi</p>
+              </div>
+            </div>
+          </div> <!-- pet-content-holder ends -->
           </div>
         </div>
       </div> <!-- row ends -->
@@ -382,10 +420,10 @@
              <div class="pet-kuce-saveti-title text-center"><h1 class="pet-ponuda-title mx-auto mt-4 my-2">SAVETI ZA SRETNE PTICE</h1></div>
               <div class="pet-kuce-saveti-holder d-flex flex-md-row flex-column mx-auto mt-4">
                 <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.</p></div>
-                <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.</p></div>
+                <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.<span id="mali-drugari"></span></p></div>
               </div>
             </div>
-          </div> <!-- pet-ponuda-mace-special-bcg ends -->
+          </div> <!-- pet-ponuda-ptice-special-bcg ends -->
         </div> <!-- col ends -->
       </div> <!-- row ends -->
     </div> <!-- container ends -->
@@ -394,19 +432,34 @@
             <!-- mali drugari ponuda -->
     <div class="container-fluid no-gutters pet-mali-drugari-container">
       <div class="row">
-        <div class="col-12 col-sm-5">
+        <div class="col-12 col-md-5">
           <div class="pet-kuce-ponuda-img-wrapper">
             <div class="pet-kuce-img-holder rounded-circle p-4 ml-0 ml-sm-5  text-center">
               <img class="pet-mali-drugari-img img-fluid rounded-circle p-2" src="img/mali-drugari1.jpg" alt="slika mačke">
-              <h1 class="pet-kuce-title text-center mt-4">MALE ŽIVOTINJE</h1>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
-              <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              <div class="pet-opsti-txt">
+                <h1 class="pet-kuce-title text-center mt-4">MALE ŽIVOTINJE</h1>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore atque nisi reiciendis deserunt laudantium rerum assumenda repudiandae natus illum. Saepe obcaecati blanditiis veniam qui ipsum perspiciatis omnis expedita ipsam, incidunt dolore nobis recusandae eum voluptas!</p>
+                <p class="pet-kuce-sub-txt p-2 mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, doloremque eos atque placeat, soluta, excepturi ipsam autem inventore repellendus necessitatibus vel, mollitia quos aliquam?</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-7">
-          <div class="pet-kuce-ponuda-txt-holder">
-
+        <div class="col-12 col-md-7">
+          <div class="pet-ponuda-txt-holder">
+            <div class="pet-ponuda-txt-holder mt-4">
+            <div class="pet-content-holder d-flex flex-wrap justify-content-around mt-5">
+            <div class="pet-content mt-5">
+              <img class="img-fluid" src="img/rabbit-food.png" alt="hrana za male zivotinje">
+              <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Hrana</p>
+            </div>
+            <div class="pet-content pet-bird-cage mt-5">
+              <div class="pet-bird-cage-content">
+                <img class="img-fluid" src="img/hamster-toy.png" alt="hrčci u igri">
+                <p class="text-center"><i class="fa fa-paw" aria-hidden="true"></i>&nbsp;Igračke</p>
+              </div>
+            </div>
+          </div> <!-- pet-content-holder ends -->
+          </div>
           </div>
         </div>
       </div> <!-- row ends -->
@@ -424,7 +477,7 @@
                 <div class="pet-kuce-savet1 p-3 m-2"><h4>Super savet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nesciunt repellat dignissimos fugiat et, dolore quaerat laborum consequatur vitae quidem, nisi odio autem tempora accusamus, quod sapiente dicta soluta iste hic! Magnam fugit praesentium harum nulla rem officia, necessitatibus illum ex cum fugiat debitis sapiente quidem adipisci repudiandae ad eligendi dolor, eaque quas excepturi reprehenderit temporibus, voluptatibus unde! Voluptates dicta dolorem expedita error consequatur cumque velit dolore at incidunt qui.</p></div>
               </div>
             </div>
-          </div> <!-- pet-ponuda-mace-special-bcg ends -->
+          </div> <!-- pet-ponuda-mali-drugari-special-bcg ends -->
         </div> <!-- col ends -->
       </div> <!-- row ends -->
     </div> <!-- container ends -->
