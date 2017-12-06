@@ -32,6 +32,10 @@ body {
 }
 
 
+
+
+
+
 /*02 HEADER*/
 
 .pet-main-nav {
@@ -81,6 +85,10 @@ body {
 }
 
 
+
+
+
+
 /*Umesto klase .active koristimo
 drugi nacin isticanja trenutnog linka*/
 
@@ -94,6 +102,10 @@ drugi nacin isticanja trenutnog linka*/
     border-radius: 10px;
     font-size: 25px;
 }
+
+
+
+
 
 
 /*03 NASLOVNA MAIN CONTENT*/
@@ -144,6 +156,10 @@ drugi nacin isticanja trenutnog linka*/
     margin-top: -30px;
     margin-left: -9px;
 }
+
+
+
+
 
 
 /*carousel */
@@ -201,6 +217,10 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 
+
+
+
+
 /*o nama*/
 
 .pet-o-nama-title {
@@ -216,6 +236,10 @@ drugi nacin isticanja trenutnog linka*/
 #o-nama {
     height: 50px;
 }
+
+
+
+
 
 
 /*fake line*/
@@ -246,6 +270,10 @@ drugi nacin isticanja trenutnog linka*/
     color: whitesmoke;
     text-shadow: 0 0 2px black;
 }
+
+
+
+
 
 
 /*ponuda start*/
@@ -292,6 +320,10 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 
+
+
+
+
 /*ponuda kuce*/
 
 .pet-kuce-container {
@@ -314,6 +346,10 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 
+
+
+
+
 /*kuce saveti*/
 
 .pet-ponuda-kuce-special-bcg {
@@ -332,6 +368,10 @@ drugi nacin isticanja trenutnog linka*/
     text-shadow: 0 0 3px black;
     border-radius: 5px;
 }
+
+
+
+
 
 
 /*ponuda mace*/
@@ -358,6 +398,10 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 
+
+
+
+
 /*ponuda ptice*/
 
 .pet-ptice-container {
@@ -380,6 +424,10 @@ drugi nacin isticanja trenutnog linka*/
     background-size: cover;
     position: relative;
 }
+
+
+
+
 
 
 /*ponuda mali drugari*/
@@ -406,6 +454,10 @@ drugi nacin isticanja trenutnog linka*/
 }
 
 
+
+
+
+
 /*FOOTER*/
 
 footer {
@@ -415,26 +467,29 @@ footer {
 
 .pet-proizvodi-logos {
     background-color: #888;
-    padding: 4em;
+    padding: 3em;
+}
+
+.pet-footer {
+    padding: 2.5em;
 }
 
 .pet-logo-footer {
     height: 30px;
-    margin: 1em 0 6em 0;
 }
 
 .pet-img-LtL {
     height: 70px;
 }
 
-address {
-    margin: 1em 0;
+address,
+address>p {
+    margin: 0;
 }
 
 .pet-copyright {
     color: #333;
     font-weight: 600;
-    margin: 1em 0 6em 0;
 }
 
 .pet-design-by {
@@ -446,6 +501,10 @@ address {
 .pet-design-by a {
     color: #efe248;
 }
+
+
+
+
 
 
 /*KONTAKT MAIN CONTENT*/
@@ -461,6 +520,10 @@ address {
 }
 
 
+
+
+
+
 /*BLOG MAIN CONTENT*/
 
 .pet-main-content-all-wrapper-not_o_nama {
@@ -470,6 +533,10 @@ address {
 .card {
     background-color: white;
 }
+
+
+
+
 
 
 /*MEDIA QUERY*/
@@ -724,6 +791,10 @@ address {
         margin-top: -21px;
     }
 }
+
+
+
+
 
 
 
