@@ -1,653 +1,801 @@
 /*01 GENERALS*/
 
+
 /*02 HEADER*/
+
 
 /*03 NASLOVNA MAIN CONTENT*/
 
+
 /*FOOTER*/
+
 
 /*KONTAKT MAIN CONTENT*/
 
+
 /*MEDIA QUERY*/
 
+
 /*ANIMATIONS*/
+
 
 /*01 GENERALS*/
 
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 body {
-  background: #e6e387;
-  font-family: 'Dosis', sans-serif;
-  text-decoration: none;
+    background: #e6e387;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
 }
+
+
+
+
+
 
 /*02 HEADER*/
 
 .pet-main-nav {
-  background-color: #efe248;
-  box-shadow: 0 1px 2px #58401b;
+    background-color: #efe248;
+    box-shadow: 0 1px 2px #58401b;
 }
 
 .pet-hidden-logo-holder {
-  position: relative;
+    position: relative;
 }
 
 .pet-hidden-logo-img {
-  width: 220px;
-  height: 30px;
-  position: absolute;
-  left: -190px;
-  top: -5px;
-  opacity: 0;
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    left: -190px;
+    top: -5px;
+    opacity: 0;
 }
 
 .pet-main-logo {
-  width: 80px;
-  height: 80px;
-  z-index: 2;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
 }
 
 .pet-logo-img {
-  width: 95px;
-  height: 95px;
+    width: 95px;
+    height: 95px;
 }
 
 .pet-nav-ul {
-  font-size: 21px;
+    font-size: 21px;
 }
 
 .pet-nav-link {
-  width: 100px;
-  font-weight: bold;
-  color: black!important;
+    width: 100px;
+    font-weight: bold;
+    color: black!important;
 }
 
 .pet-nav-link:hover {
-  background: #58401b;
-  color: white !important;
-  border-radius: 10px;
-  font-size: 25px;
+    background: #58401b;
+    color: white !important;
+    border-radius: 10px;
+    font-size: 25px;
 }
+
+
+
+
+
 
 /*Umesto klase .active koristimo
 drugi nacin isticanja trenutnog linka*/
 
-.o-nama .o-nama-nav, .kontakt .kontakt-nav, .galerija .galerija-nav, .blog .blog-nav, .ponuda .ponuda-nav {
-  background: #58401b;
-  color: white !important;
-  border-radius: 10px;
-  font-size: 25px;
+.o-nama .o-nama-nav,
+.kontakt .kontakt-nav,
+.galerija .galerija-nav,
+.blog .blog-nav,
+.ponuda .ponuda-nav {
+    background: #58401b;
+    color: white !important;
+    border-radius: 10px;
+    font-size: 25px;
 }
 
+
+
+
+
+
 /*03 NASLOVNA MAIN CONTENT*/
+
 
 /*side bar*/
 
 .pet-main-content-all-wrapper {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .pet-side-bar-holder {
-  position: absolute;
-  left: 0;
-  background: transparent;
-  height: 400px;
-  width: 52%;
-  border-radius: 0 0 10px 0;
+    position: absolute;
+    left: 0;
+    background: transparent;
+    height: 400px;
+    width: 52%;
+    border-radius: 0 0 10px 0;
 }
 
 .pet-side-bar-img {
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 0 3px #58401b;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 3px #58401b;
 }
 
 .pet-side-bar-txt-all {
-  color: white;
-  font-family: 'Indie Flower', cursive;
-  font-size: 20px;
-  text-shadow: 0 0 5px black;
-  font-weight: bold;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    text-shadow: 0 0 5px black;
+    font-weight: bold;
 }
 
 .pet-side-bar-txt-all:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .pet-side-bar-txt-123 {
-  margin-top: -20px;
-  margin-left: -7px;
+    margin-top: -20px;
+    margin-left: -7px;
 }
 
 .pet-side-bar-txt-4 {
-  margin-top: -30px;
-  margin-left: -9px;
+    margin-top: -30px;
+    margin-left: -9px;
 }
+
+
+
+
+
 
 /*carousel */
 
 .pet-slider-holder {
-  background: whitesmoke;
+    background: whitesmoke;
 }
 
 .pet-carousel-control {
     font-size: 42px;
     color: #ffd80d;
-  }
+}
 
-  .pet-control-left {
+.pet-control-left {
     transform: rotate(265deg);
-  }
+}
 
-  .pet-control-right {
+.pet-control-right {
     transform: rotate(90deg);
-  }
+}
 
-  .pet-carousel-indicators {
+.pet-carousel-indicators {
     max-width: 20px;
     height: 12px !important;
     border-radius: 30px;
-  }
+}
 
-  .pet-carousel-h3-1, .pet-carousel-h3-2, .pet-carousel-h3-3  {
+.pet-carousel-h3-1,
+.pet-carousel-h3-2,
+.pet-carousel-h3-3 {
     font-family: 'Permanent Marker', cursive;
     font-size: 70px;
     margin-top: -230px;
     color: #ffd80d;
-  }
+}
 
-  .pet-carousel-h3-1 {
+.pet-carousel-h3-1 {
     transform: rotate(342deg);
-  }
+}
 
-  .pet-carousel-h3-2 {
+.pet-carousel-h3-2 {
     transform: rotate(15deg);
-  }
+}
 
-  .pet-carousel-p {
+.pet-carousel-p {
     font-size: 30px;
     color: #ffd80d;
-  }
+}
 
 
 .carousel-inner .carousel-item {
-  -webkit-transition: 0s !important;
-  -o-transition: 0s !important;
-  transition: 0s !important;
-
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
 }
+
+
+
+
+
 
 /*o nama*/
 
 .pet-o-nama-title {
-  font-family: 'Indie Flower', cursive;
-  max-width: 500px;
+    font-family: 'Indie Flower', cursive;
+    max-width: 500px;
 }
 
 .pet-o-nama-txt {
-  font-size: 17px;
-  letter-spacing: 1px;
+    font-size: 17px;
+    letter-spacing: 1px;
 }
 
 #o-nama {
-  height: 50px;
+    height: 50px;
 }
+
+
+
+
+
 
 /*fake line*/
 
 .pet-fake-line {
-  max-width: 500px;
-  min-width: 300px;
-  margin: 4em 0;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 4em 0;
 }
 
 .pet-fake-line-div-1 {
-  width: 35%;
-  height: 3px;
-  background: transparent;
-  border: 1px solid whitesmoke;
+    width: 35%;
+    height: 3px;
+    background: transparent;
+    border: 1px solid whitesmoke;
 }
 
 .pet-fake-line-div-2 {
-  width: 50px;
-  height: 50px;
-  background: rgba(255, 255, 255, 0.3);
-  margin-top: -23px;
-  border: 3px solid whitesmoke;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: -23px;
+    border: 3px solid whitesmoke;
 }
 
 .pet-fake-line-fa-paw {
-  font-size: 23px;
-  color: whitesmoke;
-  text-shadow: 0 0 2px black;
+    font-size: 23px;
+    color: whitesmoke;
+    text-shadow: 0 0 2px black;
 }
+
+
+
+
+
 
 /*ponuda start*/
 
 .pet-ponuda-start-holder {
-  position: relative;
+    position: relative;
 }
 
 .pet-ponuda-start-bcg {
-  background-image: url('img/ponuda1.jpg');
-  min-height: 470px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url('img/ponuda1.jpg');
+    min-height: 470px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .pet-ponuda-start-txt {
-  position: absolute;
-  background: rgba(157, 157, 157, 0.4);
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: whitesmoke;
-  text-shadow: 0 0 2px black;
+    position: absolute;
+    background: rgba(157, 157, 157, 0.4);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    text-shadow: 0 0 2px black;
 }
 
 .pet-ponuda-title {
-  max-height: 50px;
+    max-height: 50px;
 }
 
 .pet-ponuda-subtitle {
-  max-height: 30px;
-  font-weight: 400;
+    max-height: 30px;
+    font-weight: 400;
 }
 
 .pet-ponuda-start-opsti-txt {
-  max-width: 300px;
-  background: rgba(99, 102, 25, 0.3);
-  text-shadow: 0 0 3px black;
-  border-radius: 5px;
+    max-width: 300px;
+    background: rgba(99, 102, 25, 0.3);
+    text-shadow: 0 0 3px black;
+    border-radius: 5px;
 }
+
+
+
+
+
 
 /*ponuda kuce*/
 
 .pet-kuce-container {
-  background: #87a2eb;
-  color: whitesmoke;
+    background: #87a2eb;
+    color: whitesmoke;
 }
 
 .pet-kuce-img-holder {
-  margin-top: -70px;
+    margin-top: -70px;
 }
 
 .pet-kuce-img {
-  border-top: 3px solid whitesmoke;
-  border-left: 3px solid whitesmoke;
-  background: #87a2eb;
+    border-top: 3px solid whitesmoke;
+    border-left: 3px solid whitesmoke;
+    background: #87a2eb;
 }
 
 .pet-kuce-sub-txt {
-  text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px black;
 }
+
+
+
+
+
 
 /*kuce saveti*/
 
 .pet-ponuda-kuce-special-bcg {
-  background-image: url('kuce-special-bcg.jpg');
-  height: 533px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url('kuce-special-bcg.jpg');
+    height: 533px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .pet-kuce-savet1 {
-  max-width: 400px;
-  background: rgba(99, 102, 25, 0.3);
-  text-shadow: 0 0 3px black;
-  border-radius: 5px;
+    max-width: 400px;
+    background: rgba(99, 102, 25, 0.3);
+    text-shadow: 0 0 3px black;
+    border-radius: 5px;
 }
+
+
+
+
 
 
 /*ponuda mace*/
 
 .pet-mace-container {
-  background: #eb7878;
-  color: whitesmoke
+    background: #eb7878;
+    color: whitesmoke
 }
 
 .pet-mace-img {
-  border-top: 3px solid whitesmoke;
-  border-left: 3px solid whitesmoke;
-  background: #eb7878;
+    border-top: 3px solid whitesmoke;
+    border-left: 3px solid whitesmoke;
+    background: #eb7878;
 }
 
 .pet-ponuda-mace-special-bcg {
-  background-image: url('mace-special-bcg.jpg');
-  min-height: 533px;
-  background-attachment: fixed;
-  background-position: 50% -20%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url('mace-special-bcg.jpg');
+    min-height: 533px;
+    background-attachment: fixed;
+    background-position: 50% -20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+
+
+
+
 
 /*ponuda ptice*/
 
 .pet-ptice-container {
-  background: #8dd358;
-  color: whitesmoke
+    background: #8dd358;
+    color: whitesmoke
 }
 
 .pet-ptice-img {
-  border-top: 3px solid whitesmoke;
-  border-left: 3px solid whitesmoke;
-  background: #8dd358;
+    border-top: 3px solid whitesmoke;
+    border-left: 3px solid whitesmoke;
+    background: #8dd358;
 }
 
 .pet-ponuda-ptice-special-bcg {
-  background-image: url('ptice-special-bcg.jpg');
-  min-height: 533px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url('ptice-special-bcg.jpg');
+    min-height: 533px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+
+
+
+
 
 /*ponuda mali drugari*/
 
 .pet-mali-drugari-container {
-  background: #f4a649;
-  color: whitesmoke
+    background: #f4a649;
+    color: whitesmoke
 }
 
 .pet-mali-drugari-img {
-  border-top: 3px solid whitesmoke;
-  border-left: 3px solid whitesmoke;
-  background: #f4a649;
+    border-top: 3px solid whitesmoke;
+    border-left: 3px solid whitesmoke;
+    background: #f4a649;
 }
 
 .pet-ponuda-mali-drugari-special-bcg {
-  background-image: url('mali-drugari-special-bcg.jpg');
-  min-height: 533px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url('mali-drugari-special-bcg.jpg');
+    min-height: 533px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #515151;
+    color: #fff;
+}
+
+.pet-proizvodi-logos {
+    background-color: #888;
+    padding: 3em;
+}
+
+.pet-footer {
+    padding: 2.5em;
+}
+
+.pet-logo-footer {
+    height: 30px;
+}
+
+.pet-img-LtL {
+    height: 70px;
+}
+
+address,
+address>p {
+    margin: 0;
+}
+
+.pet-copyright {
+    color: #333;
+    font-weight: 600;
+}
+
+.pet-design-by {
+    background-color: #333;
+    padding: 1em;
+    margin-bottom: 0;
+}
+
+.pet-design-by a {
+    color: #efe248;
+}
+
+
+
+
+
 
 /*KONTAKT MAIN CONTENT*/
 
 .pet-map {
-  height: 37rem;
-  background-color: #efca16;
+    height: 37rem;
+    background-color: #efca16;
 }
 
 .pet-contact-info ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
+
+
+
+
+
 
 /*BLOG MAIN CONTENT*/
 
 .pet-main-content-all-wrapper-not_o_nama {
-  position: relative;
+    position: relative;
 }
 
-.card{
-  background-color: white;
+.card {
+    background-color: white;
 }
+
+
+
+
+
 
 /*MEDIA QUERY*/
 
 @media only screen and (min-width: 1350px) {
-  /*animation 'o nama'*/
-  .pet-div-anim1, .pet-div-anim2, .pet-div-anim3, .pet-div-anim4 {
-    height: 390px;
-  }
+    /*animation 'o nama'*/
+    .pet-div-anim1,
+    .pet-div-anim2,
+    .pet-div-anim3,
+    .pet-div-anim4 {
+        height: 390px;
+    }
 
-  .pet-img-anim1 {
-    bottom: -390px;
-  }
+    .pet-img-anim1 {
+        bottom: -390px;
+    }
 
-  .pet-txt-anim3, .pet-img-anim4 {
-    top: -390px;
-  }
-
+    .pet-txt-anim3,
+    .pet-img-anim4 {
+        top: -390px;
+    }
 }
 
 @media only screen and (min-width: 991px) {
-  /*lg - nav bar*/
-  .pet-nav {
-    height: 103px;
-  }
-  .nav-item {
-    height: 100%;
-  }
-  /*lg side bar visible*/
-  .pet-large-screen-side-bar-solution {
-    display: block;
-  }
-  .pet-side-bar-content-holder {
-    margin-left: 16px;
-  }
-  .pet-side-bar-img {
-    margin-left: 17px;
-  }
-  .pet-side-bar-img:hover {
-    margin-left: 34px;
-    transition: 1s ease;
-  }
-  /*under-nav bar disappear*/
-  .pet-mobile-side-bar-solution {
-    display: none;
-  }
+    /*lg - nav bar*/
+    .pet-nav {
+        height: 103px;
+    }
+    .nav-item {
+        height: 100%;
+    }
+    /*lg side bar visible*/
+    .pet-large-screen-side-bar-solution {
+        display: block;
+    }
+    .pet-side-bar-content-holder {
+        margin-left: 16px;
+    }
+    .pet-side-bar-img {
+        margin-left: 17px;
+    }
+    .pet-side-bar-img:hover {
+        margin-left: 34px;
+        transition: 1s ease;
+    }
+    /*under-nav bar disappear*/
+    .pet-mobile-side-bar-solution {
+        display: none;
+    }
 
-  /*hidden side-bar*/
-  .pet-side-bar-holder-hidden {
-    float: left;
-    top: 50px;
-    margin-left: -60px;
-    background: rgba(255, 255, 255, 0);
-    height: 500px;
-    width: 55px;
-    z-index: 1;
-  }
+    /*hidden side-bar*/
+    .pet-side-bar-holder-hidden {
+        float: left;
+        top: 50px;
+        margin-left: -60px;
+        background: rgba(255, 255, 255, 0);
+        height: 500px;
+        width: 55px;
+        z-index: 1;
+    }
 
-  .pet-side-bar-holder-hidden-not_o_nama {
-    float: left;
-    top: 50px;
-    margin-left: -60px;
-    background: rgba(255, 255, 255, 0);
-    height: 465px;
-    width: 55px;
-    z-index: 1;
-  }
+    .pet-side-bar-holder-hidden-not_o_nama {
+        float: left;
+        top: 50px;
+        margin-left: -60px;
+        background: rgba(255, 255, 255, 0);
+        height: 465px;
+        width: 55px;
+        z-index: 1;
+    }
 
-  .pet-fa-icon-paw {
-    margin-top: -30px;
-    border-radius: 12%;
-    background: lightgray;
-  }
+    .pet-fa-icon-paw {
+        margin-top: -30px;
+        border-radius: 12%;
+        background: lightgray;
+    }
 
-  .pet-fa-icon-paw1 {
-    background: #87a2eb;
-  }
+    .pet-fa-icon-paw1 {
+        background: #87a2eb;
+    }
 
-  .pet-fa-icon-paw2 {
-    background: #eb7878;
-  }
+    .pet-fa-icon-paw2 {
+        background: #eb7878;
+    }
 
-  .pet-fa-icon-paw3 {
-    background: #8dd358;
-  }
+    .pet-fa-icon-paw3 {
+        background: #8dd358;
+    }
 
-  .pet-fa-icon-paw4 {
-    background: #f4a649;
-  }
+    .pet-fa-icon-paw4 {
+        background: #f4a649;
+    }
 
-  .pet-icons-txt {
-    font-family: 'Dosis', sans-serif;
-    color: lightgray;
-    font-size: 16px;
-    text-shadow: 0 0 1px black;
-    /*background: rgba(150, 150, 150, 0.5);*/
-    line-height: 17px;
-  }
+    .pet-icons-txt {
+        font-family: 'Dosis', sans-serif;
+        color: lightgray;
+        font-size: 16px;
+        text-shadow: 0 0 1px black;
+        /*background: rgba(150, 150, 150, 0.5);*/
+        line-height: 17px;
+    }
 
-  .clearfix:after {
-      content: "";
-      clear: both;
-      display: table;
-  }
+    .clearfix:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 
-  /*animation 'o nama'*/
-  .pet-div-anim1 {
-    position: relative;
-    height: 302px;
-  }
+    /*animation 'o nama'*/
+    .pet-div-anim1 {
+        position: relative;
+        height: 302px;
+    }
 
-  .pet-img-anim1 {
-    height: 0;
-    position: absolute;
-    bottom: -302px;
-    right: 0;
-    z-index: 2;
-  }
+    .pet-img-anim1 {
+        height: 0;
+        position: absolute;
+        bottom: -302px;
+        right: 0;
+        z-index: 2;
+    }
 
-  .pet-div-anim2 {
-    position: relative;
-    height: 302px;
-  }
+    .pet-div-anim2 {
+        position: relative;
+        height: 302px;
+    }
 
-  .pet-txt-anim2 {
-    height: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 3;
-    background: transparent;
-    overflow: hidden;
-  }
+    .pet-txt-anim2 {
+        height: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+        background: transparent;
+        overflow: hidden;
+    }
 
-  .pet-div-anim3 {
-    position: relative;
-    height: 302px;
-  }
+    .pet-div-anim3 {
+        position: relative;
+        height: 302px;
+    }
 
-  .pet-txt-anim3 {
-    height: 0;
-    position: absolute;
-    top: -302px;
-    right: 0;
-    z-index: 3;
-    background: transparent;
-  }
+    .pet-txt-anim3 {
+        height: 0;
+        position: absolute;
+        top: -302px;
+        right: 0;
+        z-index: 3;
+        background: transparent;
+    }
 
-  .pet-div-anim4 {
-    position: relative;
-    height: 302px;
-  }
+    .pet-div-anim4 {
+        position: relative;
+        height: 302px;
+    }
 
-  .pet-img-anim4 {
-    height: 0;
-    position: absolute;
-    top: -302px;
-    left: 0;
-    z-index: 2;
-  }
+    .pet-img-anim4 {
+        height: 0;
+        position: absolute;
+        top: -302px;
+        left: 0;
+        z-index: 2;
+    }
 
-  .pet-ex-span-anim1, .pet-ex-span-anim2 {
-    opacity: 0;
-  }
+    .pet-ex-span-anim1,
+    .pet-ex-span-anim2 {
+        opacity: 0;
+    }
 }
 
 @media only screen and (max-width: 991px) {
-  /*lg side bar disappear*/
-  .pet-large-screen-side-bar-solution, .pet-fa-icon-paw {
-    display: none;
-  }
+    /*lg side bar disappear*/
+    .pet-large-screen-side-bar-solution,
+    .pet-fa-icon-paw {
+        display: none;
+    }
 
-  /*hidden lg side bar hidden*/
-  .pet-side-bar-holder-hidden {
-    display: none;
-  }
+    /*hidden lg side bar hidden*/
+    .pet-side-bar-holder-hidden {
+        display: none;
+    }
 
-  /*under-nav bar visible*/
-  .pet-mobile-side-bar-solution {
-    display: block;
-  }
-  .pet-side-bar-content-holder {
-    background: #58401b;
-  }
-  .pet-side-bar-img {
-    margin-bottom: -15px;
-  }
-  .pet-side-bar-img:hover {
-    transform: scale(1.2);
-    transition: 1s;
-  }
-  .pet-side-bar-txt-123 {
-    margin-top: -10px;
-  }
-  .pet-side-bar-txt-4 {
-    margin-top: -10px;
-  }
-  .pet-map {
-    height: 20rem;
-  }
+    /*under-nav bar visible*/
+    .pet-mobile-side-bar-solution {
+        display: block;
+    }
+    .pet-side-bar-content-holder {
+        background: #58401b;
+    }
+    .pet-side-bar-img {
+        margin-bottom: -15px;
+    }
+    .pet-side-bar-img:hover {
+        transform: scale(1.2);
+        transition: 1s;
+    }
+    .pet-side-bar-txt-123 {
+        margin-top: -10px;
+    }
+    .pet-side-bar-txt-4 {
+        margin-top: -10px;
+    }
+    .pet-map {
+        height: 20rem;
+    }
 
-  /*text 'o nama' background*/
-  .pet-o-nama-txt {
-    background: #efe248;
-  }
+    /*text 'o nama' background*/
+    .pet-o-nama-txt {
+        background: #efe248;
+    }
 }
 
 @media only screen and (max-width: 735px) {
-  /*side bar imgs and txt respo*/
-  .pet-side-bar-img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: -15px;
-  }
-  .pet-side-bar-txt-all {
-    font-size: 17px;
-  }
-  .pet-side-bar-txt-123 {
-    margin-top: -10px;
-  }
-  .pet-side-bar-txt-4 {
-    margin-top: -10px;
-    font-size: 14px;
-  }
+    /*side bar imgs and txt respo*/
+    .pet-side-bar-img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: -15px;
+    }
+    .pet-side-bar-txt-all {
+        font-size: 17px;
+    }
+    .pet-side-bar-txt-123 {
+        margin-top: -10px;
+    }
+    .pet-side-bar-txt-4 {
+        margin-top: -10px;
+        font-size: 14px;
+    }
 
-  .pet-crs-img {
-    width: 100%;
-    height: 310px;
-  }
+    .pet-crs-img {
+        width: 100%;
+        height: 310px;
+    }
 
-  #o-nama {
-    height: 20px;
-  }
+    #o-nama {
+        height: 20px;
+    }
 
-  /*saveti bcg height*/
-
-  .pet-ponuda-kuce-special-bcg, .pet-ponuda-mace-special-bcg, .pet-ponuda-ptice-special-bcg, .pet-ponuda-mali-drugari-special-bcg {
-    height: 973px;
-  }
-
+    /*saveti bcg height*/
+    .pet-ponuda-kuce-special-bcg,
+    .pet-ponuda-mace-special-bcg,
+    .pet-ponuda-ptice-special-bcg,
+    .pet-ponuda-mali-drugari-special-bcg {
+        height: 973px;
+    }
 }
 
 @media only screen and (max-width: 471px) {
-  /*bunny img respo*/
-  .pet-side-bar-txt-4 {
-    margin-top: -21px;
-  }
+    /*bunny img respo*/
+    .pet-side-bar-txt-4 {
+        margin-top: -21px;
+    }
 }
+
+
+
+
+
+
 
 /*TEST AREA*/
